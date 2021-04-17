@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0056764674, g: 0.09171598, b: 0.36704454, a: 1}
+  m_IndirectSpecularColor: {r: 0.011234198, g: 0.13273415, b: 0.48977715, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4935,6 +4935,14 @@ PrefabInstance:
     - target: {fileID: 5595939842272982844, guid: 76dc76987fba05f4785addaaec651d58, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595939842272982845, guid: 76dc76987fba05f4785addaaec651d58, type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: b53fe6d45ccbdc040a86efeabc09167d, type: 3}
+    - target: {fileID: 5595939842272982845, guid: 76dc76987fba05f4785addaaec651d58, type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.346
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76dc76987fba05f4785addaaec651d58, type: 3}
