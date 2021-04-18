@@ -58,8 +58,10 @@ args = parser.parse_args()
 if args.image_dir is None:
     args.image_dir = args.xml_dir
 
-label_map = label_map_util.load_labelmap(args.labels_path)
-label_map_dict = label_map_util.get_label_map_dict(label_map)
+# These 2 lines doesn't work -> resolve with https://stackoverflow.com/questions/63763809/error-when-converting-xml-files-to-tfrecord-files
+#label_map = label_map_util.load_labelmap(args.labels_path)
+#label_map_dict = label_map_util.get_label_map_dict(label_map)
+label_map_dict = label_map_util.get_label_map_dict(args.labels_path)
 
 
 def xml_to_csv(path):
