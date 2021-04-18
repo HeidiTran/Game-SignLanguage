@@ -23,8 +23,8 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Level");
     }
 
-    public void QuitGame()
+    public void Tutorial()
     {
-        Application.Quit();
+        SceneManager.LoadScene("Tutorial");
     }
 }
