@@ -409,4 +409,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-
+*.DS_Store*
+*/.DS_Store
+*.idea*
+*.ipynb_checkpoints*
+*events.out.tfevents.1618704464.ANNIETHINKPAD.17564.1556.v2
